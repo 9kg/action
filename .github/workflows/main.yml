@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run Project
-        run: npm install && npm run serve
         env:
           pass: ${{ secrets.EMAIL_TOKEN }}
+        run: npm install && npm run serve

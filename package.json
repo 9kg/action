@@ -1,0 +1,15 @@
+{
+  "name": "action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/9kg/action.git",
+  "author": "9kg <838181576@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node ./index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.8.2",
+    "nodemailer": "^6.7.5"
+  }
+}

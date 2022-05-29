@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 
-const pass = core.getInput('pass', { required: true });
+const pass = process.env.pass
 
 module.exports = {
   name: "王宝",
